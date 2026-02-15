@@ -25,7 +25,7 @@
         margin-left: 20px;
         /* text-align: center; */
     }
-    .team-img-container{
+    .team-img-container, .sponser-comp{
         grid-template-columns: repeat(1, 1fr);
     }
     
@@ -34,18 +34,22 @@
     .facts-container{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
-        
+        justify-items: center;
+        gap: 25px;
      }
-    .fact-card{
-        /* margin-left: 65px; */
-        margin: 0 auto;
-        margin-bottom: 10px ;
-    }
+
     .some-facts,h3 p{
         text-align: center;
     }
     
 }   
+    .sponser-comp{
+        justify-items: center;
+        gap: 20px;
+    }
+
+
+
     @media screen and (min-width:576px) and (max-width:992px) {
     
     #btn2{
@@ -61,13 +65,10 @@
      .facts-container{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        
+        justify-items: center;
+        gap: 25px;
      }
-     .fact-card{
-        /* margin-left: 65px; */
-        margin: 0 auto;
-        margin-bottom: 10px ;
-    }
+    
     .some-facts,h3 p{
         text-align: center;
     }
@@ -114,14 +115,10 @@
                 <button id="btn2" class="button-primary">Explore More</button>
             </div>
         </section>
-        <!-- Futures will enjoy -->
-         <section>
-
-         </section>
          <!-- same factsss -->
           <section class="some-facts">
             <h3 class="section-titles">Some Facts</h3>
-            <p class="text-light-gray">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.</p>
+            <p  class="text-light-gray">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.</p>
             <div class="facts-container">
                 <div class="fact-card display-flex">
                    <div>
@@ -153,6 +150,20 @@
                 </div>
             </div>
           </section>
+          <!-- Our sponser -->
+         <section class="our-sponser">
+            <div class="sponser-info">
+                <h3 class="section-titles">Our Sponspors</h3>
+                <p class="text-light-gray">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.</p>
+            </div>
+            <div class="sponser-comp">
+                <img src="images/sponsors/amazon.png" alt="">
+                <img src="images/sponsors/google.png" alt="">
+                <img src="images/sponsors/figma.png" alt="">
+                <img src="images/sponsors/telerama.png" alt="">
+                <img src="images/sponsors/spotify.png" alt="">
+            </div>
+         </section>
     </main>
     <footer>
 

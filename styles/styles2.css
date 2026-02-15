@@ -109,8 +109,9 @@ img{
 .facts-container{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    
+    margin-top: 70px;
 }
+
 .fact-card{
     border: 1px solid #FF900E;
     width: 240px;
@@ -128,4 +129,22 @@ img{
 }
 .facts-name{
     margin-top: 10px;
+}
+/* sponser styles */
+.sponser-info{
+    max-width: 540px;
+    text-align: center;
+    margin: 50px auto;
+}
+.sponser-comp{
+    /* display: flex;
+    justify-content: space-between; */
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+.sponser-comp img{
+    filter: grayscale(100%);
+    border: 1px solid #FF900E;
+    padding: 7px 7px;
+    border-radius: 5px;
 }
