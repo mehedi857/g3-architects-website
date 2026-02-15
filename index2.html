@@ -6,9 +6,9 @@
     <title>G3 Architects</title>
     <link rel="stylesheet" href="styles/styles2.css">
     <style>
-        main > section >div > img{
+        /* main > section >div > img{
             width: 100%;
-        }
+        } */
     @media screen and (max-width:576px) {
     .navba, .nav-links{
         flex-direction: column;
@@ -18,9 +18,20 @@
     }
     .ours-futures{
         margin-left: 20px;
-        text-align: center;
+        /* text-align: center; */
+    }
+    .team-img-container{
+        grid-template-columns: repeat(1, 1fr);
     }
     
+}   
+    @media screen and (min-width:576px) and (max-width:992px) {
+    .teams{
+        flex-direction: column;
+    }
+     .ours-futures{
+        margin: 50px auto;
+     }
 }
     </style>
 </head>
@@ -46,6 +57,7 @@
         </div>
     </header>
     <main class="">
+        <!-- teams section -->
         <section class="teams display-flex">
             <div class="team-img-container">
                 <img src="images/team1.png" alt="">
@@ -54,11 +66,23 @@
                 <img src="images/team4.png" alt="">
             </div>
             <div class="ours-futures">
-                <h3 class="futures-titles"> <span id="quick-list" class="text-light-gray">Quick list</span> <span>of Our</span> <span class="feat-color">Features</span></h3>
-                <p class="futures-diss">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even</p>
+                <h3 class="section-titles"> <span id="quick-list" class="text-light-gray">Quick list</span> <span>of Our</span> <span class="feat-color">Features</span></h3>
+                <p class="futures-diss text-light-gray">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even</p>
                 <button class="button-primary">Explore More</button>
             </div>
         </section>
+        <!-- Futures will enjoy -->
+         <section>
+
+         </section>
+         <!-- same factsss -->
+          <section class="some-facts">
+            <h3 class="section-titles">Some Facts</h3>
+            <p class="text-light-gray">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.</p>
+            <div class="facts-container">
+                
+            </div>
+          </section>
     </main>
     <footer>
 

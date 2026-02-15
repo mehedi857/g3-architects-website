@@ -20,7 +20,10 @@
     font-size: 1.2rem;
     font-weight: 600;
 }
-
+.section-titles{
+    font-size: 3.8rem;
+    font-weight: 700;
+}
 
 /* drk2 */
 .text-gray{
@@ -94,10 +97,7 @@ img{
     margin-left: 130px;
     max-width: 540px;
 }
-.futures-titles{
-    font-size: 3.8rem;
-    font-weight: 700;
-}
+
 #quick-list{
     font-weight: 400;
 }
